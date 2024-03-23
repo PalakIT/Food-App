@@ -37,6 +37,8 @@ class CartFragment : Fragment() {
         binding.cartRecyclerView.layoutManager = LinearLayoutManager(requireContext())
         binding.cartRecyclerView.adapter = adapter
         return binding.root
+
+
     }
 
     companion object {
