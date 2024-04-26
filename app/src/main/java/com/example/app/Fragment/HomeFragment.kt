@@ -78,7 +78,7 @@ override fun onItemSelected(position: Int) {
     val foodName = listOf("Chole Bhature", "Sandwich", "Burger", "Fried Rice")
     val Price = listOf("₹50", "₹40", "₹60", "₹50")
     val populerFoodImages = listOf(R.drawable.cholebhature, R.drawable.sandwich, R.drawable.burger, R.drawable.friedrice)
-    val adapter = PopularAdapter(foodName, Price, populerFoodImages)
+    val adapter = PopularAdapter(foodName, Price, populerFoodImages,requireContext())
     binding.PopulerRecylerView.layoutManager = LinearLayoutManager (requireContext())
         binding.PopulerRecylerView.adapter=adapter
 

@@ -13,14 +13,21 @@
         android:theme="@style/Theme.App"
         tools:targetApi="31">
         <activity
+            android:name=".DetailActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".PayOutActivity"
+            android:exported="true" />
+        <activity
             android:name=".SignInActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".home"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".LoginActivity2"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
